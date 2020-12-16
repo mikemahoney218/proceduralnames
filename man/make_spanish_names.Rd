@@ -16,7 +16,7 @@ generated name.}
 }
 \value{
 A random name formatted as "word_word" (for example,
-"every_complete_company").
+"movimiento_veces_objetivo").
 }
 \description{
 This function generates `n` random names, each a combination of `n_words`

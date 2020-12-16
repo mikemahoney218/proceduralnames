@@ -9,7 +9,7 @@
 #' generated name.
 #'
 #' @return A random name formatted as "word_word" (for example,
-#' "every_complete_company").
+#' "movimiento_veces_objetivo").
 #'
 #' @examples
 #' make_spanish_names(1, n_words = 2)

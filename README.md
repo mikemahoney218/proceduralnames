@@ -8,8 +8,8 @@
 
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![License:
-Apache 2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
+[![License: Apache
+2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/proceduralnames)](https://CRAN.R-project.org/package=proceduralnames)
 [![codecov](https://codecov.io/gh/mikemahoney218/proceduralnames/branch/master/graph/badge.svg)](https://codecov.io/gh/mikemahoney218/proceduralnames)
@@ -26,8 +26,8 @@ random names for easy differentiation of objects or observations.
 
 ## Installation
 
-If the CRAN bage above is green, you can install the released version of
-proceduralnames from [CRAN](https://CRAN.R-project.org) with:
+If the CRAN badge above is green, you can install the released version
+of proceduralnames from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("proceduralnames")
@@ -50,7 +50,7 @@ for its containers:
 ``` r
 library(proceduralnames)
 make_docker_names(1)
-#> [1] "elastic_wilson"
+#> [1] "loving_yalow"
 ```
 
 `make_english_names` and `make_spanish_names` both generate names using
@@ -59,9 +59,9 @@ respectively:
 
 ``` r
 make_english_names(1)
-#> [1] "carry_by_syllable"
+#> [1] "hard_molecule_listen"
 make_spanish_names(1)
-#> [1] "gran_carrera_ni"
+#> [1] "mis_saber_persona"
 ```
 
 All three functions can be used to generate multiple names by providing
@@ -74,7 +74,7 @@ between 1 and 10 to the end of each name:
 
 ``` r
 make_docker_names(1, retry = TRUE)
-#> [1] "exciting_brahmagupta4"
+#> [1] "eloquent_lalande1"
 ```
 
 In addition to these functions, proceduralnames provides the data sets
