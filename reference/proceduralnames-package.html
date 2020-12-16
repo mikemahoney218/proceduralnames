@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Generates a random name from the list of Docker adjectives and surnames. — make_docker_names • proceduralnames</title>
+<title>proceduralnames: Several Methods for Procedural Name Generation — proceduralnames-package • proceduralnames</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,9 +46,11 @@
 
 
 
-<meta property="og:title" content="Generates a random name from the list of Docker adjectives and surnames. — make_docker_names" />
-<meta property="og:description" content="This function generates `n` random names, each combining a single adjective
-from [docker_adjectives] and a surname from [docker_names]." />
+<meta property="og:title" content="proceduralnames: Several Methods for Procedural Name Generation — proceduralnames-package" />
+<meta property="og:description" content="
+A small, dependency-free way to generate random names. Methods 
+    provided include the adjective-surname approach of Docker containers and 
+    a list of common English words." />
 <meta property="og:image" content="https://mikemahoney218.github.io/proceduralnames/logo.png" />
 
 
@@ -121,41 +123,32 @@ from [docker_adjectives] and a surname from [docker_names]." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Generates a random name from the list of Docker adjectives and surnames.</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mikemahoney218/proceduralnames/blob/master/R/docker_names.R'><code>R/docker_names.R</code></a></small>
-    <div class="hidden name"><code>make_docker_names.Rd</code></div>
+    <h1>proceduralnames: Several Methods for Procedural Name Generation</h1>
+    <small class="dont-index">Source: <a href='https://github.com/mikemahoney218/proceduralnames/blob/master/R/proceduralnames-package.R'><code>R/proceduralnames-package.R</code></a></small>
+    <div class="hidden name"><code>proceduralnames-package.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This function generates `n` random names, each combining a single adjective
-from [docker_adjectives] and a surname from [docker_names].</p>
+    <p><img src='figures/logo.png' align='right' alt='logo' width='120' /></p>
+<p>A small, dependency-free way to generate random names. Methods 
+    provided include the adjective-surname approach of Docker containers and 
+    a list of common English words.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>make_docker_names</span><span class='op'>(</span><span class='va'>n</span>, retry <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span></pre>
 
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>n</th>
-      <td><p>The number of random names to be generated.</p></td>
-    </tr>
-    <tr>
-      <th>retry</th>
-      <td><p>If `TRUE`, a random integer between 1 and 10 is appended to each
-generated name.</p></td>
-    </tr>
-    </table>
 
-    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <p>A random name formatted as "adjective_surname" (for example,
-"focused_turing").</p>
+    <div class='dont-index'><p>Useful links:</p><ul>
+<li><p><a href='https://github.com/mikemahoney218/proceduralnames'>https://github.com/mikemahoney218/proceduralnames</a></p></li>
+<li><p>Report bugs at <a href='https://github.com/mikemahoney218/proceduralnames/issues'>https://github.com/mikemahoney218/proceduralnames/issues</a></p></li>
+</ul>
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>make_docker_names</span><span class='op'>(</span><span class='fl'>1</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; [1] "gracious_mcnulty"</div><div class='input'><span class='fu'>make_docker_names</span><span class='op'>(</span><span class='fl'>2</span>, retry <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; [1] "pensive_williamson4" "magical_heyrovsky6" </div></pre>
+</div>
+    <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
+
+    <p><strong>Maintainer</strong>: Michael Mahoney <a href='mailto:mike.mahoney.218@gmail.com'>mike.mahoney.218@gmail.com</a> (<a href='https://orcid.org/0000-0003-2402-304X'>ORCID</a>)</p>
+
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
