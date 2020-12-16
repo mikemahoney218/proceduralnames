@@ -1,0 +1,79 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "proceduralnames",
+  "description": "A small, dependency-free way to generate random names. Methods \n    provided include the adjective-surname approach of Docker containers and \n    a list of common English words.",
+  "name": "proceduralnames: Several Methods for Procedural Name Generation",
+  "codeRepository": "https://github.com/mikemahoney218/proceduralnames",
+  "issueTracker": "https://github.com/mikemahoney218/proceduralnames/issues",
+  "license": "Apache License 2",
+  "version": "0.1.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Michael",
+      "familyName": "Mahoney",
+      "email": "mike.mahoney.218@gmail.com",
+      "@id": "https://orcid.org/0000-0003-2402-304X"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Michael",
+      "familyName": "Mahoney",
+      "email": "mike.mahoney.218@gmail.com",
+      "@id": "https://orcid.org/0000-0003-2402-304X"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "codemetar",
+      "name": "codemetar",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=codemetar"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.10"
+    }
+  ],
+  "releaseNotes": "https://github.com/mikemahoney218/proceduralnames/blob/master/NEWS.md",
+  "fileSize": "41.969KB",
+  "contIntegration": "https://codecov.io/gh/mikemahoney218/proceduralnames",
+  "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"]
+}
