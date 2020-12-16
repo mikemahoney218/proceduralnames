@@ -14,21 +14,20 @@
 #' @examples
 #' make_spanish_names(1, n_words = 2)
 #' make_spanish_names(2, retry = TRUE)
-#'
 #' @export
 make_spanish_names <- function(n, n_words = 3, retry = FALSE) {
-
   name <- vapply(
     seq_len(n),
-    function(x) paste0(
-      sample(proceduralnames::spanish_words, n_words),
-      collapse = "_"
-    ),
+    function(x) {
+      paste0(
+        sample(proceduralnames::spanish_words, n_words),
+        collapse = "_"
+      )
+    },
     character(1)
   )
 
   if (retry) name <- paste0(name, sample.int(10, n, replace = TRUE))
 
   name
-
 }

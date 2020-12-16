@@ -25,5 +25,4 @@ words selected from [spanish_words].
 \examples{
 make_spanish_names(1, n_words = 2)
 make_spanish_names(2, retry = TRUE)
-
 }

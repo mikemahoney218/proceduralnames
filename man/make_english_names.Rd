@@ -25,5 +25,4 @@ words selected from [common_words].
 \examples{
 make_english_names(1, n_words = 2)
 make_english_names(2, retry = TRUE)
-
 }

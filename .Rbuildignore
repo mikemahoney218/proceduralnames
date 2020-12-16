@@ -9,3 +9,4 @@
 ^codemeta\.json$
 ^README\.Rmd$
 ^codecov\.yml$
+^cran-comments\.md$

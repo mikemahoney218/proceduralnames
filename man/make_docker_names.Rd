@@ -23,5 +23,4 @@ from [docker_adjectives] and a surname from [docker_names].
 \examples{
 make_docker_names(1)
 make_docker_names(2, retry = TRUE)
-
 }

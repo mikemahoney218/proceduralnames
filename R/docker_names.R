@@ -13,7 +13,6 @@
 #' @examples
 #' make_docker_names(1)
 #' make_docker_names(2, retry = TRUE)
-#'
 #' @export
 make_docker_names <- function(n, retry = FALSE) {
   name <- paste0(
@@ -28,5 +27,4 @@ make_docker_names <- function(n, retry = FALSE) {
   if (retry) name <- paste0(name, sample.int(10, n, replace = TRUE))
 
   name
-
 }
