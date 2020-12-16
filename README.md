@@ -1,8 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-\# proceduralnames
-<a href='https://mikemahoney218.github.io/proceduralnames'><img src='man/figures/logo.png' align="right" height="138" /></a>
+# proceduralnames <a href='https://mikemahoney218.github.io/proceduralnames'><img src='man/figures/logo.png' align="right" height="138" /></a>
 
 <!-- badges: start -->
 
@@ -50,7 +49,7 @@ for its containers:
 ``` r
 library(proceduralnames)
 make_docker_names(1)
-#> [1] "romantic_carson"
+#> [1] "serene_kepler"
 ```
 
 `make_english_names` and `make_spanish_names` both generate names using
@@ -59,9 +58,9 @@ respectively:
 
 ``` r
 make_english_names(1)
-#> [1] "start_who_ground"
+#> [1] "clear_noon_law"
 make_spanish_names(1)
-#> [1] "precisamente_personal_finalmente"
+#> [1] "haciendo_mesa_entrada"
 ```
 
 All three functions can be used to generate multiple names by providing
@@ -74,7 +73,7 @@ between 1 and 10 to the end of each name:
 
 ``` r
 make_docker_names(1, retry = TRUE)
-#> [1] "exciting_borg8"
+#> [1] "inspiring_chebyshev4"
 ```
 
 In addition to these functions, proceduralnames provides the data sets
