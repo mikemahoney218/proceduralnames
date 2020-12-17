@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 
 # proceduralnames <a href='https://mikemahoney218.github.io/proceduralnames'><img src='man/figures/logo.png' align="right" height="138" /></a>
 
+_Would a rose by any procedurally generated name still smell as sweet?_
 
 <!-- badges: start -->
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)

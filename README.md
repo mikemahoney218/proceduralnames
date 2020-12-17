@@ -3,12 +3,14 @@
 
 # proceduralnames <a href='https://mikemahoney218.github.io/proceduralnames'><img src='man/figures/logo.png' align="right" height="138" /></a>
 
+*Would a rose by any procedurally generated name still smell as sweet?*
+
 <!-- badges: start -->
 
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![License:
-Apache 2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
+[![License: Apache
+2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/proceduralnames)](https://CRAN.R-project.org/package=proceduralnames)
 [![codecov](https://codecov.io/gh/mikemahoney218/proceduralnames/branch/master/graph/badge.svg)](https://codecov.io/gh/mikemahoney218/proceduralnames)
@@ -49,7 +51,7 @@ for its containers:
 ``` r
 library(proceduralnames)
 make_docker_names(1)
-#> [1] "serene_kepler"
+#> [1] "awesome_carson"
 ```
 
 `make_english_names` and `make_spanish_names` both generate names using
@@ -58,9 +60,9 @@ respectively:
 
 ``` r
 make_english_names(1)
-#> [1] "clear_noon_law"
+#> [1] "govern_character_suffix"
 make_spanish_names(1)
-#> [1] "haciendo_mesa_entrada"
+#> [1] "medio_imagen_especial"
 ```
 
 All three functions can be used to generate multiple names by providing
@@ -73,7 +75,7 @@ between 1 and 10 to the end of each name:
 
 ``` r
 make_docker_names(1, retry = TRUE)
-#> [1] "inspiring_chebyshev4"
+#> [1] "vigilant_mirzakhani2"
 ```
 
 In addition to these functions, proceduralnames provides the data sets
