@@ -9,8 +9,8 @@
 
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![License: Apache
-2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
+[![License:
+Apache 2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/proceduralnames)](https://CRAN.R-project.org/package=proceduralnames)
 [![codecov](https://codecov.io/gh/mikemahoney218/proceduralnames/branch/master/graph/badge.svg)](https://codecov.io/gh/mikemahoney218/proceduralnames)
@@ -51,7 +51,7 @@ for its containers:
 ``` r
 library(proceduralnames)
 make_docker_names(1)
-#> [1] "awesome_carson"
+#> [1] "hardcore_allen"
 ```
 
 `make_english_names` and `make_spanish_names` both generate names using
@@ -60,9 +60,9 @@ respectively:
 
 ``` r
 make_english_names(1)
-#> [1] "govern_character_suffix"
+#> [1] "have_large_duck"
 make_spanish_names(1)
-#> [1] "medio_imagen_especial"
+#> [1] "rafael_pueden_tanto"
 ```
 
 All three functions can be used to generate multiple names by providing
@@ -75,7 +75,7 @@ between 1 and 10 to the end of each name:
 
 ``` r
 make_docker_names(1, retry = TRUE)
-#> [1] "vigilant_mirzakhani2"
+#> [1] "bold_payne2"
 ```
 
 In addition to these functions, proceduralnames provides the data sets
