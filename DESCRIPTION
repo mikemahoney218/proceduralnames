@@ -9,9 +9,10 @@ Authors@R:
            email = "mike.mahoney.218@gmail.com",
            comment = c(ORCID = "0000-0003-2402-304X"))
 Description: A small, dependency-free way to generate random names. Methods 
-    provided include the adjective-surname approach of Docker containers and 
-    a list of common English words.
-URL: https://github.com/mikemahoney218/proceduralnames
+    provided include the adjective-surname approach of Docker containers 
+    ('<https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go'),
+    and combinations of common English or Spanish words.
+URL: https://mikemahoney218.github.io/proceduralnames/, https://github.com/mikemahoney218/proceduralnames
 BugReports: https://github.com/mikemahoney218/proceduralnames/issues
 License: Apache License (>= 2)
 Encoding: UTF-8

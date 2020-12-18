@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# proceduralnames <a href='https://mikemahoney218.github.io/proceduralnames'><img src='man/figures/logo.png' align="right" height="138" /></a>
+# proceduralnames <a href='https://mikemahoney218.github.io/proceduralnames/'><img src='man/figures/logo.png' align="right" height="138" /></a>
 
 *Would a rose by any procedurally generated name still smell as sweet?*
 
@@ -9,8 +9,8 @@
 
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![License:
-Apache 2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
+[![License: Apache
+2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/proceduralnames)](https://CRAN.R-project.org/package=proceduralnames)
 [![codecov](https://codecov.io/gh/mikemahoney218/proceduralnames/branch/master/graph/badge.svg)](https://codecov.io/gh/mikemahoney218/proceduralnames)
@@ -51,7 +51,7 @@ for its containers:
 ``` r
 library(proceduralnames)
 make_docker_names(1)
-#> [1] "hardcore_allen"
+#> [1] "clever_chaum"
 ```
 
 `make_english_names` and `make_spanish_names` both generate names using
@@ -60,9 +60,9 @@ respectively:
 
 ``` r
 make_english_names(1)
-#> [1] "have_large_duck"
+#> [1] "name_duck_mix"
 make_spanish_names(1)
-#> [1] "rafael_pueden_tanto"
+#> [1] "hacerlo_programa_instituciones"
 ```
 
 All three functions can be used to generate multiple names by providing
@@ -75,7 +75,7 @@ between 1 and 10 to the end of each name:
 
 ``` r
 make_docker_names(1, retry = TRUE)
-#> [1] "bold_payne2"
+#> [1] "bold_moser5"
 ```
 
 In addition to these functions, proceduralnames provides the data sets
