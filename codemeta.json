@@ -5,7 +5,7 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "proceduralnames",
-  "description": "A small, dependency-free way to generate random names. Methods \n    provided include the adjective-surname approach of Docker containers and \n    a list of common English words.",
+  "description": "A small, dependency-free way to generate random names. Methods \n    provided include the adjective-surname approach of Docker containers \n    ('<https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go'),\n    and combinations of common English or Spanish words.",
   "name": "proceduralnames: Several Methods for Procedural Name Generation",
   "codeRepository": "https://github.com/mikemahoney218/proceduralnames",
   "issueTracker": "https://github.com/mikemahoney218/proceduralnames/issues",
@@ -73,7 +73,10 @@
     }
   ],
   "releaseNotes": "https://github.com/mikemahoney218/proceduralnames/blob/master/NEWS.md",
-  "fileSize": "41.969KB",
+  "fileSize": "116.627KB",
   "contIntegration": "https://codecov.io/gh/mikemahoney218/proceduralnames",
-  "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"]
+  "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"],
+  "relatedLink": "https://mikemahoney218.github.io/proceduralnames/",
+  "readme": "https://github.com/mikemahoney218/proceduralnames/blob/main/README.md",
+  "keywords": ["rstats", "cran", "r-package", "r"]
 }
