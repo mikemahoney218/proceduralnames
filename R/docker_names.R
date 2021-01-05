@@ -16,9 +16,13 @@
 #' @export
 make_docker_names <- function(n, retry = FALSE) {
   name <- paste0(
-    sample(proceduralnames::docker_adjectives, n),
+    sample(proceduralnames::docker_adjectives,
+           n,
+           replace = length(proceduralnames::docker_adjectives) < n),
     "_",
-    sample(proceduralnames::docker_names, n)
+    sample(proceduralnames::docker_names,
+           n,
+           replace = length(proceduralnames::docker_names) < n)
   )
   if (any(name == "boring_wozniak")) { # Steve Wozniak is not boring
     name[name == "boring_wozniak"] <- make_docker_names(1, retry) # nocov

@@ -20,7 +20,9 @@ make_english_names <- function(n, n_words = 3, retry = FALSE) {
     seq_len(n),
     function(x) {
       paste0(
-        sample(proceduralnames::common_words, n_words),
+        sample(proceduralnames::common_words,
+               n_words,
+               replace = length(proceduralnames::common_words) < n * n_words),
         collapse = "_"
       )
     },

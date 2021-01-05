@@ -1,3 +1,9 @@
+# proceduralnames 0.1.1
+
+* `common_words` no longer contains ' marks
+* All functions now resample words if the number of words required are greater
+  than the source data.
+
 # proceduralnames 0.1.0
 
 * Initial release.
