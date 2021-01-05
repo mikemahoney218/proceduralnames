@@ -73,10 +73,21 @@
     }
   ],
   "releaseNotes": "https://github.com/mikemahoney218/proceduralnames/blob/master/NEWS.md",
-  "fileSize": "116.627KB",
+  "fileSize": "117.522KB",
   "contIntegration": "https://codecov.io/gh/mikemahoney218/proceduralnames",
   "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"],
-  "relatedLink": "https://mikemahoney218.github.io/proceduralnames/",
+  "relatedLink": ["https://mikemahoney218.github.io/proceduralnames/", "https://CRAN.R-project.org/package=proceduralnames"],
   "readme": "https://github.com/mikemahoney218/proceduralnames/blob/main/README.md",
-  "keywords": ["rstats", "cran", "r-package", "r"]
+  "keywords": [
+    "rstats",
+    "cran",
+    "r-package",
+    "r"
+  ],
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  }
 }
