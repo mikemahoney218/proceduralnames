@@ -1,10 +1,10 @@
-## Resubmission
-This is a resubmission. In this version I have:
+## Release summary
 
-* Fixed a URL by adding a trailing slash, and added this URL to the DESCRIPTION.
-* Added a URL pointing to the Docker methods for generating procedural names. 
-  No other references are relevant to the methods implemented in this package.
-* Fixed two errors in the original README.
+I apologize for the rapid re-submission! The CRAN release of version 0.1.0 
+brought two design flaws to light -- the original `common_words` data set 
+included with this package included apostrophes, breaking some uses of the 
+identifiers, and the original generation functions did not sample with 
+replacement, limiting how many identifiers could be generated per call.
 
 ## Test environments
 * local R installation, R 4.0.3
@@ -15,6 +15,8 @@ This is a resubmission. In this version I have:
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 notes
 
-* This is a new release.
+## Downstream dependencies
+
+There are currently no downstream dependencies for this package.
