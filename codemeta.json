@@ -10,7 +10,7 @@
   "codeRepository": "https://github.com/mikemahoney218/proceduralnames",
   "issueTracker": "https://github.com/mikemahoney218/proceduralnames/issues",
   "license": "Apache License 2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -73,10 +73,13 @@
     }
   ],
   "releaseNotes": "https://github.com/mikemahoney218/proceduralnames/blob/master/NEWS.md",
-  "fileSize": "117.522KB",
+  "fileSize": "117.896KB",
   "contIntegration": "https://codecov.io/gh/mikemahoney218/proceduralnames",
   "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"],
-  "relatedLink": ["https://mikemahoney218.github.io/proceduralnames/", "https://CRAN.R-project.org/package=proceduralnames"],
+  "relatedLink": [
+    "https://mikemahoney218.github.io/proceduralnames/",
+    "https://CRAN.R-project.org/package=proceduralnames"
+  ],
   "readme": "https://github.com/mikemahoney218/proceduralnames/blob/main/README.md",
   "keywords": [
     "rstats",
