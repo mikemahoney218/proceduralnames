@@ -27,8 +27,8 @@ _Would a rose by any procedurally generated name still smell as sweet?_
 
 <!-- badges: end -->
 
-The goal of proceduralnames is to make it easy to quickly generate random names
-for easy differentiation of objects or observations.
+The goal of proceduralnames is to make it easy to quickly generate unique-enough
+identifier strings for easy differentiation of objects or observations.
 
 ## Installation
 
@@ -83,3 +83,8 @@ function draws from (namely, `docker_adjectives`, `docker_names`,
 `common_words`, and `spanish_words`). These data may evolve with each release of
 the package, so try not to depend on the length and contents of each vector
 remaining constant, but the fundamental shape of each object will remain stable.
+
+Note that the emphasis of this package is on generating _human-readable_ 
+identifiers, not necessarily universally unique strings. If you need strings 
+which are functionally universally unique for your application, look into the 
+[uuid package](https://cran.r-project.org/package=uuid).

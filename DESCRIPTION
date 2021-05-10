@@ -21,6 +21,5 @@ Depends:
     R (>= 2.10)
 RoxygenNote: 7.1.1
 Suggests: 
-    testthat,
-    codemetar
+    testthat
 Config/testthat/edition: 3
