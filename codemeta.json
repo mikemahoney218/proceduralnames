@@ -10,13 +10,13 @@
   "codeRepository": "https://github.com/mikemahoney218/proceduralnames",
   "issueTracker": "https://github.com/mikemahoney218/proceduralnames/issues",
   "license": "Apache License 2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+  "runtimePlatform": "R version 4.0.5 (2021-03-31)",
   "author": [
     {
       "@type": "Person",
@@ -53,15 +53,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "codemetar",
-      "name": "codemetar",
+      "identifier": "covr",
+      "name": "covr",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=codemetar"
+      "sameAs": "https://CRAN.R-project.org/package=covr"
     }
   ],
   "softwareRequirements": [
@@ -73,7 +73,7 @@
     }
   ],
   "releaseNotes": "https://github.com/mikemahoney218/proceduralnames/blob/master/NEWS.md",
-  "fileSize": "117.896KB",
+  "fileSize": "97.141KB",
   "contIntegration": "https://codecov.io/gh/mikemahoney218/proceduralnames",
   "developmentStatus": ["https://www.tidyverse.org/lifecycle/#maturing", "https://www.repostatus.org/#active"],
   "relatedLink": [
