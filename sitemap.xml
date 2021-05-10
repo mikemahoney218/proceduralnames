@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/404.html</loc>
+  </url>
+  <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/CONTRIBUTING.html</loc>
+  </url>
+  <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/authors.html</loc>
+  </url>
+  <url>
     <loc>https://mikemahoney218.github.io/proceduralnames/index.html</loc>
+  </url>
+  <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/issue_template.html</loc>
+  </url>
+  <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/news/index.html</loc>
+  </url>
+  <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/pull_request_template.html</loc>
   </url>
   <url>
     <loc>https://mikemahoney218.github.io/proceduralnames/reference/common_words.html</loc>
@@ -11,6 +32,9 @@
   </url>
   <url>
     <loc>https://mikemahoney218.github.io/proceduralnames/reference/docker_names.html</loc>
+  </url>
+  <url>
+    <loc>https://mikemahoney218.github.io/proceduralnames/reference/index.html</loc>
   </url>
   <url>
     <loc>https://mikemahoney218.github.io/proceduralnames/reference/make_docker_names.html</loc>
