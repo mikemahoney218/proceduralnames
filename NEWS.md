@@ -1,3 +1,7 @@
+# proceduralnames 0.1.2
+
+* Remove codemetar from Suggests (#1)
+
 # proceduralnames 0.1.1
 
 * `common_words` no longer contains ' marks

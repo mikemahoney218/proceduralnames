@@ -32,7 +32,7 @@ jobs:
           while read -r cmd
           do
             eval sudo $cmd
-          done < <(Rscript -e 'writeLines(c(remotes::system_requirements("ubuntu", "20.04"), "apt-get install -y libgit2-dev"))')
+          done < <(Rscript -e 'writeLines(c(remotes::system_requirements("ubuntu", "20.04"), "apt-get install -y libgit2-dev libcurl4-openssl-dev"))')
       - name: Install codemetar
         run: |
           install.packages("remotes")

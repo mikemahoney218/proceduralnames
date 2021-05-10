@@ -1,7 +1,7 @@
 Package: proceduralnames
 Type: Package
 Title: Several Methods for Procedural Name Generation
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     person(given = "Michael",
            family = "Mahoney",
@@ -21,5 +21,6 @@ Depends:
     R (>= 2.10)
 RoxygenNote: 7.1.1
 Suggests: 
-    testthat
+    testthat,
+    covr
 Config/testthat/edition: 3
