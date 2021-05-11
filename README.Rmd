@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 _Would a rose by any procedurally generated name still smell as sweet?_
 
 <!-- badges: start -->
-[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
 [![CRAN status](https://www.r-pkg.org/badges/version/proceduralnames)](https://CRAN.R-project.org/package=proceduralnames)
 [![codecov](https://codecov.io/gh/mikemahoney218/proceduralnames/branch/master/graph/badge.svg)](https://codecov.io/gh/mikemahoney218/proceduralnames)
