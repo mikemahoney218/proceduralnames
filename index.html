@@ -113,17 +113,17 @@
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mikemahoney218.github.io/proceduralnames/">proceduralnames</a></span><span class="op">)</span>
 <span class="fu"><a href="reference/make_docker_names.html">make_docker_names</a></span><span class="op">(</span><span class="fl">1</span><span class="op">)</span>
-<span class="co">#&gt; [1] "hardcore_engelbart"</span></code></pre></div>
+<span class="co">#&gt; [1] "peaceful_morse"</span></code></pre></div>
 <p><code>make_english_names</code> and <code>make_spanish_names</code> both generate names using a subset of the 1,000 most common words in English or Spanish, respectively:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/make_english_names.html">make_english_names</a></span><span class="op">(</span><span class="fl">1</span><span class="op">)</span>
-<span class="co">#&gt; [1] "cell_view_set"</span>
+<span class="co">#&gt; [1] "window_noun_instant"</span>
 <span class="fu"><a href="reference/make_spanish_names.html">make_spanish_names</a></span><span class="op">(</span><span class="fl">1</span><span class="op">)</span>
-<span class="co">#&gt; [1] "llegado_desde_sociedad"</span></code></pre></div>
+<span class="co">#&gt; [1] "menor_presente_tanto"</span></code></pre></div>
 <p>All three functions can be used to generate multiple names by providing a different number to the <code>n</code> argument. <code>make_english_names</code> and <code>make_spanish_names</code> both have an argument, <code>n_words</code>, which can be used to alter the number of words combined for each name. All three functions also have an argument, <code>retry</code> (named after the argument used in generating Docker container names) which will append a random integer between 1 and 10 to the end of each name:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/make_docker_names.html">make_docker_names</a></span><span class="op">(</span><span class="fl">1</span>, retry <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
-<span class="co">#&gt; [1] "practical_curran9"</span></code></pre></div>
+<span class="co">#&gt; [1] "loving_goldwasser8"</span></code></pre></div>
 <p>In addition to these functions, proceduralnames provides the data sets each function draws from (namely, <code>docker_adjectives</code>, <code>docker_names</code>, <code>common_words</code>, and <code>spanish_words</code>). These data may evolve with each release of the package, so try not to depend on the length and contents of each vector remaining constant, but the fundamental shape of each object will remain stable.</p>
 <p>Note that the emphasis of this package is on generating <em>human-readable</em> identifiers, not necessarily universally unique strings. If you need strings which are functionally universally unique for your application, look into the <a href="https://cran.r-project.org/package=uuid" class="external-link">uuid package</a>.</p>
 </div>
@@ -168,7 +168,7 @@
 <div class="dev-status">
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.tidyverse.org/lifecycle/#maturing" class="external-link"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="Lifecycle: maturing"></a></li>
+<li><a href="https://lifecycle.r-lib.org/articles/stages.html#maturing" class="external-link"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="Lifecycle: maturing"></a></li>
 <li><a href="https://choosealicense.com/licenses/apache-2.0/" class="external-link"><img src="https://img.shields.io/badge/license-Apache-yellowgreen.svg" alt="License: Apache 2.0"></a></li>
 <li><a href="https://CRAN.R-project.org/package=proceduralnames" class="external-link"><img src="https://www.r-pkg.org/badges/version/proceduralnames" alt="CRAN status"></a></li>
 <li><a href="https://codecov.io/gh/mikemahoney218/proceduralnames" class="external-link"><img src="https://codecov.io/gh/mikemahoney218/proceduralnames/branch/master/graph/badge.svg" alt="codecov"></a></li>
