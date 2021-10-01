@@ -1,3 +1,8 @@
+# proceduralnames 0.2.1
+* Bug fixes:
+  * Fixed problem where `title` and `upper` options to `case` provided the wrong
+    casing.
+
 # proceduralnames 0.2.0
 * New features:
   * `make_english_names` and `make_spanish_names` gain arguments to control the

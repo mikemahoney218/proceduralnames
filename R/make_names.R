@@ -97,9 +97,9 @@ make_spanish_names <- function(n,
 #' names are not guaranteed to be unique.
 make_names <- function(corpus, n, n_words, retry, sep = "_", case) {
 
-  corpus <- if (case[[1]] == "upper") {
+  corpus <- if (case[[1]] == "title") {
     tools::toTitleCase(corpus)
-  } else if (case[[1]] == "title") {
+  } else if (case[[1]] == "upper") {
     toupper(corpus)
   } else {
     corpus
