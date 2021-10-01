@@ -67,9 +67,6 @@ words selected from [common_words]." />
 
 
 
-<!-- dependencies from examples -->
-
-
   
 
   
@@ -92,7 +89,7 @@ words selected from [common_words]." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">proceduralnames</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.2.0</span>
       </span>
     </div>
 
@@ -138,7 +135,7 @@ words selected from [common_words]." />
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Generates a random name from a list of common English words.</h1>
-    <small class="dont-index">Source: <a href='https://github.com/mikemahoney218/proceduralnames/blob/master/R/english_names.R'><code>R/english_names.R</code></a></small>
+    <small class="dont-index">Source: <a href='https://github.com/mikemahoney218/proceduralnames/blob/master/R/make_names.R'><code>R/make_names.R</code></a></small>
     <div class="hidden name"><code>make_english_names.Rd</code></div>
     </div>
 
@@ -147,7 +144,13 @@ words selected from [common_words]." />
 words selected from [common_words].</p>
     </div>
 
-    <pre class="usage"><span class='fu'>make_english_names</span><span class='op'>(</span><span class='va'>n</span>, n_words <span class='op'>=</span> <span class='fl'>3</span>, retry <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span></pre>
+    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='fu'>make_english_names</span><span class='op'>(</span>
+  <span class='va'>n</span>,
+  n_words <span class='op'>=</span> <span class='fl'>3</span>,
+  retry <span class='op'>=</span> <span class='cn'>FALSE</span>,
+  sep <span class='op'>=</span> <span class='st'>"_"</span>,
+  case <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"lower"</span>, <span class='st'>"upper"</span>, <span class='st'>"title"</span><span class='op'>)</span>
+<span class='op'>)</span></code></pre></div>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -165,19 +168,29 @@ words selected from [common_words].</p>
       <td><p>If `TRUE`, a random integer between 1 and 10 is appended to each
 generated name.</p></td>
     </tr>
+    <tr>
+      <th>sep</th>
+      <td><p>A character string to separate the terms. Not `NA_character_`.</p></td>
+    </tr>
+    <tr>
+      <th>case</th>
+      <td><p>One of either "lower", "upper", or "title". The capitalization to
+use for each word.</p></td>
+    </tr>
     </table>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>A random name formatted as "word_word" (for example,
-"every_complete_company").</p>
+    <p>A character vector of length `n` of random names, each composed of
+`n_word` terms capitalized according to `case` separated by `sep`. Note that
+names are not guaranteed to be unique.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><span class='r-in'><span class='fu'>make_english_names</span><span class='op'>(</span><span class='fl'>1</span>, n_words <span class='op'>=</span> <span class='fl'>2</span><span class='op'>)</span></span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> [1] "head_build"</span>
+    <div class="ref-examples sourceCode"><pre class='sourceCode r'><code><span class='r-in'><span class='fu'>make_english_names</span><span class='op'>(</span><span class='fl'>1</span>, n_words <span class='op'>=</span> <span class='fl'>2</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [1] "self_large"</span>
 <span class='r-in'><span class='fu'>make_english_names</span><span class='op'>(</span><span class='fl'>2</span>, retry <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> [1] "size_period_reason7" "current_day_anger5" </span>
-</pre>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [1] "more_captain_dead7"   "group_better_excite1"</span>
+</code></pre></div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
@@ -193,7 +206,7 @@ generated name.</p></td>
 </div>
 
 <div class="pkgdown">
-  <p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9001.</p></p>
+  <p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.9000.9000.9000.</p></p>
 </div>
 
       </footer>
