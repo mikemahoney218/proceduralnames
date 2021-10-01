@@ -1,3 +1,13 @@
+# proceduralnames 0.2.0
+* New features:
+  * `make_english_names` and `make_spanish_names` gain arguments to control the
+    case of component words and separators between words. `make_docker_names` 
+    only gains the ability to control separators in this release.
+* Internal changes:
+  * `make_english_names` and `make_spanish_names` now rely on the (non-exported)
+    `make_names` function, to reduce code duplication.
+  * Moved all package code to a single file.
+
 # proceduralnames 0.1.2
 
 * Remove codemetar from Suggests (#1)
