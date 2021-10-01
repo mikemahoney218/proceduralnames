@@ -1,16 +1,8 @@
-## Resubmission
-
-This is a resubmission. In this version I:
-
-* Updated a moved URL
-
-Apologies for not catching that the first time around.
-
 ## Test environments
-* local R installation, R 4.0.5
-* ubuntu 20.04 (on GitHub Actions), R 4.0.5, 3.6.3, devel
-* macOS (on GitHub Actions), R 4.0.5
-* windows (on GitHub Actions), R 4.0.5
+* local R installation, ubuntu 20.04, R 4.1.1
+* ubuntu 20.04 (on GitHub Actions), R devel, release, oldrel
+* macOS (on GitHub Actions), R release
+* windows (on GitHub Actions), R release
 * win-builder, R devel
 
 ## R CMD check results
