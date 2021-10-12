@@ -21,7 +21,7 @@ _Would a rose by any procedurally generated name still smell as sweet?_
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
 [![CRAN status](https://www.r-pkg.org/badges/version/proceduralnames)](https://CRAN.R-project.org/package=proceduralnames)
-[![codecov](https://codecov.io/gh/mikemahoney218/proceduralnames/branch/master/graph/badge.svg)](https://codecov.io/gh/mikemahoney218/proceduralnames)
+[![codecov](https://codecov.io/gh/mikemahoney218/proceduralnames/branch/main/graph/badge.svg?token=Clkzj1NO5c)](https://app.codecov.io/gh/mikemahoney218/proceduralnames)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R build status](https://github.com/mikemahoney218/proceduralnames/workflows/R-CMD-check/badge.svg)](https://github.com/mikemahoney218/proceduralnames/actions)
 
