@@ -1,22 +1,26 @@
 {
-  "@context": [
-    "https://doi.org/10.5063/schema/codemeta-2.0",
-    "http://schema.org"
-  ],
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "identifier": "proceduralnames",
-  "description": "A small, dependency-free way to generate random names. Methods \n    provided include the adjective-surname approach of Docker containers \n    ('<https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go'),\n    and combinations of common English or Spanish words.",
+  "description": "A small, dependency-free way to generate random names. Methods provided include the adjective-surname approach of Docker containers ('<https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go>'), and combinations of common English or Spanish words.",
   "name": "proceduralnames: Several Methods for Procedural Name Generation",
+  "relatedLink": ["https://mikemahoney218.github.io/proceduralnames/", "https://CRAN.R-project.org/package=proceduralnames"],
   "codeRepository": "https://github.com/mikemahoney218/proceduralnames",
   "issueTracker": "https://github.com/mikemahoney218/proceduralnames/issues",
   "license": "Apache License 2",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+  "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
   "author": [
     {
       "@type": "Person",
@@ -26,9 +30,6 @@
       "@id": "https://orcid.org/0000-0003-2402-304X"
     }
   ],
-  "contributor": {},
-  "copyrightHolder": {},
-  "funder": {},
   "maintainer": [
     {
       "@type": "Person",
@@ -64,33 +65,19 @@
       "sameAs": "https://CRAN.R-project.org/package=covr"
     }
   ],
-  "softwareRequirements": [
-    {
+  "softwareRequirements": {
+    "1": {
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
       "version": ">= 2.10"
-    }
-  ],
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "100.258KB",
   "releaseNotes": "https://github.com/mikemahoney218/proceduralnames/blob/master/NEWS.md",
-  "fileSize": "100.159KB",
-  "contIntegration": "https://codecov.io/gh/mikemahoney218/proceduralnames",
-  "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#maturing", "https://www.repostatus.org/#active"],
-  "relatedLink": [
-    "https://mikemahoney218.github.io/proceduralnames/",
-    "https://CRAN.R-project.org/package=proceduralnames"
-  ],
   "readme": "https://github.com/mikemahoney218/proceduralnames/blob/main/README.md",
-  "keywords": [
-    "rstats",
-    "cran",
-    "r-package",
-    "r"
-  ],
-  "provider": {
-    "@id": "https://cran.r-project.org",
-    "@type": "Organization",
-    "name": "Comprehensive R Archive Network (CRAN)",
-    "url": "https://cran.r-project.org"
-  }
+  "contIntegration": ["https://app.codecov.io/gh/mikemahoney218/proceduralnames", "https://github.com/mikemahoney218/proceduralnames/actions"],
+  "developmentStatus": ["https://lifecycle.r-lib.org/articles/stages.html#maturing", "https://www.repostatus.org/#active"],
+  "keywords": ["rstats", "cran", "r-package", "r"]
 }
