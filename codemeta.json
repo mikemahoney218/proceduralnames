@@ -8,7 +8,7 @@
   "codeRepository": "https://github.com/mikemahoney218/proceduralnames",
   "issueTracker": "https://github.com/mikemahoney218/proceduralnames/issues",
   "license": "Apache License 2",
-  "version": "0.2.2",
+  "version": "0.2.2.9000",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -74,7 +74,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "100.258KB",
+  "fileSize": "100.304KB",
   "releaseNotes": "https://github.com/mikemahoney218/proceduralnames/blob/master/NEWS.md",
   "readme": "https://github.com/mikemahoney218/proceduralnames/blob/main/README.md",
   "contIntegration": ["https://app.codecov.io/gh/mikemahoney218/proceduralnames", "https://github.com/mikemahoney218/proceduralnames/actions"],
