@@ -1,22 +1,18 @@
-## Resubmission
-
-This is a resubmission. In this version, I have updated the URL in README.md
-which has been moved.
-
-Apologies for the inconvenience! I ran the checks before the weekend and didn't
-get any URL issues, I assume it updated between when I ran and when I submitted.
-
 ## Test environments
-* local R installation, ubuntu 20.04, R 4.1.1
+* local R installation, ubuntu 20.04, R 4.2.1
 * ubuntu 20.04 (on GitHub Actions), R devel, release, oldrel
 * macOS (on GitHub Actions), R release
 * windows (on GitHub Actions), R release
-* win-builder, R devel, release, oldrel
+* win-builder, R devel
 
 ## R CMD check results
 
 0 errors | 0 warnings | 0 notes
 
-## Downstream dependencies
+## revdepcheck results
 
-There are currently no downstream dependencies for this package.
+We checked 1 reverse dependencies, comparing R CMD check results across CRAN and dev versions of this package.
+
+ * We saw 0 new problems
+ * We failed to check 0 packages
+

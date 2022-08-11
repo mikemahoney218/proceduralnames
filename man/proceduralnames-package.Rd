@@ -6,9 +6,9 @@
 \alias{proceduralnames-package}
 \title{proceduralnames: Several Methods for Procedural Name Generation}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A small, dependency-free way to generate random names. Methods provided include the adjective-surname approach of Docker containers ('<https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go'), and combinations of common English or Spanish words.
+A small, dependency-free way to generate random names. Methods provided include the adjective-surname approach of Docker containers ('\url{https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go}'), and combinations of common English or Spanish words.
 }
 \seealso{
 Useful links:

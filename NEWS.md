@@ -1,3 +1,6 @@
+# proceduralnames 0.2.2
+* Redocumented to stay on CRAN
+
 # proceduralnames 0.2.1
 * Bug fixes:
   * Fixed problem where `title` and `upper` options to `case` provided the wrong
