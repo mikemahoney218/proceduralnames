@@ -1,3 +1,5 @@
+# proceduralnames (development version)
+
 # proceduralnames 0.2.2
 * Redocumented to stay on CRAN
 
